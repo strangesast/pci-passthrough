@@ -22,3 +22,7 @@ blacklist nouveau
 options vfio-pci ids=10de:1b81,10de:10f0
 ```
 - Apply changes with `sudo update-initramfs -u`
+
+- Create VM with Virtual Machine Manager or other.  Install OS
+- For windows virtio drivers go here https://docs.fedoraproject.org/en-US/quick-docs/creating-windows-virtual-machines-using-virtio-drivers/index.html
+- Easiest to start with spice and install drivers / etc then add GPU
